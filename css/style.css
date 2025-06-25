@@ -1,0 +1,44 @@
+.fondo-encabezado {
+    background: linear-gradient(to top, #60e298, #21ed54);
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10%;
+    
+}
+.titulo {
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 400px;
+
+}
+@media (max-width: 1160px ) {
+    .logo {
+        width: 250px;
+        top: 35px;
+    }
+}
+
+@media (max-width: 1050px ) {
+    .logo {
+        width: 230px;
+        left: 50px;
+        top: 30px;
+    }
+}
+.fondo-contenedor-principal {
+    background-color: #67cef9;
+}
+
+.fondo-principal {
+    background: linear-gradient(to top, #565c7f, #75b5f5);
+}
+
+ 
